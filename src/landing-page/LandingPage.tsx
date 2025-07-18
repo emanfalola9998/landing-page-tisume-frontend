@@ -15,7 +15,7 @@ const LandingPage = () => {
         if (!searchTerm) return
 
         const isLocal = import.meta.env.dev
-        const endpoint = isLocal ? '/api/proxy/service-submit' : "https://landing-page-tisume-backend-production.up.railway.app"
+        const endpoint = isLocal ? '/api/proxy/service-submit' : "https://landing-page-tisume-backend-production.up.railway.app/api/proxy/service-submit"
 
         try {
             const response = await fetch(endpoint, {
