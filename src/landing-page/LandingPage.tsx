@@ -8,6 +8,7 @@ const LandingPage = () => {
 
     const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
         setSearchTerm(e.target.value.trim())
+        console.log(shouldRefetch)
     } 
 
     const handleSubmit = async () => {
