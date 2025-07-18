@@ -59,7 +59,7 @@ const LandingPage = () => {
     formData.append('data', file); // 'data' must match the n8n binary field
 
     try {
-        const res = await fetch('https://your-n8n-domain/webhook/upload-services-doc', {
+        const res = await fetch('https://landing-page-tisume-backend-production.up.railway.app/api/proxy/service-submit', {
         method: 'POST',
         body: formData,
     });
