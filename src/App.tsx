@@ -1,5 +1,5 @@
-import './App.css'
 import LandingPage from './landing-page/LandingPage'
+import "./App.scss"
 
 function App() {
 
@@ -12,3 +12,4 @@ function App() {
 }
 
 export default App
+
