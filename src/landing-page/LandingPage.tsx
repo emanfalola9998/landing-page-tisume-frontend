@@ -1,7 +1,7 @@
 import { useState, type ChangeEvent, type FormEvent } from 'react'
 import './LandingPage.scss'
 import girl from "../assets/images/Dramatic Hair Transformation Before and After Comparison Poster.png"
-import logo from "../assets/images/image 1.png"
+import logo from "../assets/images/tisume.png"
 
 
 const LandingPage = () => {
