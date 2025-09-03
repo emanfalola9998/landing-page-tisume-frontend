@@ -67,9 +67,8 @@
   .landing-page{
     display: flex;
     flex-direction: column;
-
     width:100%;
-    // height: 100vh;
+
     &__header {
         display: flex;
         justify-content: space-between;
@@ -77,7 +76,8 @@
         padding: 20px;
         margin: 20;
         // border: 2px solid green;
-        color:white;
+        
+
 
         &-image{
           max-width: 200px;
@@ -86,13 +86,17 @@
         }
 
         &__nav {
+            display: flex;
             justify-content: space-around;
             border-radius: 6px;
             // border: $secondary-border;
             padding: 10px;
+            gap: 40px;
+            font-size: 30px;
 
             &-link {
-                margin: 20px
+              text-decoration: none;
+              color:white;
             }
             &-button {
                 // border-radius: 3px;
@@ -115,16 +119,14 @@
         height: 480px;
         width: auto; 
         transform: scaleX(-1);
-
       }
 
       &__form{
         display: flex;
         flex-direction: column;
-        // border: 2px solid grey;
         max-width: 160rem; 
         height: 30rem; 
-        // align-items: center;
+
 
         &-title{
           font-size: 37px;
@@ -167,6 +169,8 @@
             background-color: #d9d9d9;
             border-radius: 5rem;
             padding: 0.7rem;
+            height: auto;
+            max-width: 6rem;
 
           }
 
